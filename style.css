@@ -4,3 +4,6 @@ body{background:#fff}.paper-header{max-width:1160px;padding:80px 30px 58px;margi
 
 /* Emphasize the CartPole state-norm figure over summary callouts. */
 .result-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,4fr);gap:20px}.result-grid .stat-number{font-size:44px}.result-grid .stat-number span{font-size:23px}.result-grid .stat h3{font-size:16px}.result-grid .stat p{font-size:14px}.results-band .compact{padding:12px}.equation p{line-height:1.65}.equation p+p{text-align:left}@media(max-width:800px){.result-grid{grid-template-columns:1fr 1fr}.result-grid .compact{grid-column:1/-1}.result-grid .stat-number{font-size:38px}}
+
+/* Larger theoretical guarantee label. */
+.theory .eyebrow{font-size:22px;line-height:1.35;letter-spacing:.035em;color:#183b50}
